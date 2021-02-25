@@ -13,7 +13,6 @@ public class MT_87_Java_Exercise_6_Custom_Calculator {
         2. Cannot division by 0 Exception
         3. Max Input Exception if any of the input is greater than 100000
         4. Max Multiplier Reached Exception - Don t allow any multiplication input to be greater than 7000
-
         */
     }
 }
