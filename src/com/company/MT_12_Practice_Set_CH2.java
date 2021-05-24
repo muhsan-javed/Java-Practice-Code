@@ -26,5 +26,9 @@ public class MT_12_Practice_Set_CH2 {
 
         // Problem 5
         System.out.println(7*49/7+35/7);
+
+//        for (int i = 1; i<11; i++){
+//            System.out.println("2 X "+i+" = "+i*2);
+//        }
     }
 }
