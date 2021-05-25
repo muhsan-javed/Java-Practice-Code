@@ -21,7 +21,12 @@ public class MT_18_Switch {
         }
         System.out.println("Thanks for using my java course!");
 
-
+//        int number=2;
+//        switch (number){
+//            case 1:
+//                System.out.println("1");
+//                break;
+//        }
 
 
         /*if (age > 56){

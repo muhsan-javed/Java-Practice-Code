@@ -17,7 +17,7 @@ public class MT_15_Practice_Set_CH3 {
         // Replace <|name|> with a string (some name)
 
         String letter = "Dear <|name|>, Thanks a lot!";
-        letter = letter.replace("<|name|>", "Sachin");
+        letter = letter.replace("<|name|>", "Tahmoor");
         System.out.println(letter);
 
         // Problem 4

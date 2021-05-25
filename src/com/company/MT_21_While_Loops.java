@@ -16,9 +16,9 @@ public class MT_21_While_Loops {
 
         System.out.println("\nMuhsan Javed");
 
-        while (true){
-            System.out.println("Iam an infinite while loop!!");
-        }
+//        while (true){
+//            System.out.println("Iam an infinite while loop!!");
+//        }
 
 
     }
