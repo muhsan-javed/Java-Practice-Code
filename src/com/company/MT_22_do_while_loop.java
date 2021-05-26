@@ -10,12 +10,13 @@ public class MT_22_do_while_loop {
 //            a++;
 //        }
 
-        int b=0;
+        int b=10;
         do {
             System.out.println(b);
             b++;
         }while (b<5);
 
         System.out.println("Ends do while Loops");
+
     }
 }
