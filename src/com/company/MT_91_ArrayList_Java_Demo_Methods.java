@@ -31,5 +31,7 @@ public class MT_91_ArrayList_Java_Demo_Methods {
             System.out.print(integer);
             System.out.print(", ");
         }
+
+        System.out.printf("Hello world!");
     }
 }
