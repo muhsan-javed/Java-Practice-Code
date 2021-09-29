@@ -4,6 +4,10 @@ import java.util.Scanner;
 public class MT_02_Basic_Structure_Understanding {
     public static void main(String[] args) {
 
+      /*  add two number
+                AddTwoNumber ---> pascal naming convention
+                addTwoNumber --->  camel case naming convention
+        */
         System.out.println("Add Two Numbers");
 
         System.out.println("Enter the first Numbers");
@@ -17,9 +21,6 @@ public class MT_02_Basic_Structure_Understanding {
         int result = first + second;
 
         System.out.println("Your Sum is: "+result);
-
-
-
 
     }
 }
