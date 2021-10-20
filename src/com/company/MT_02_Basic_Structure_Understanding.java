@@ -22,5 +22,7 @@ public class MT_02_Basic_Structure_Understanding {
 
         System.out.println("Your Sum is: "+result);
 
+        System.out.printf("Hello world");
+
     }
 }
