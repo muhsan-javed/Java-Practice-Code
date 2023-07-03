@@ -27,7 +27,5 @@ public class Mini_Project {
 
         System.out.println("My Number was : ");
         System.out.print(myNumber);
-
-
     }
 }
