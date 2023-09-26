@@ -1,6 +1,7 @@
 package apnacollage;
 
 import java.util.Scanner;
+
 public class Lecture_2_Variables_Input_Output {
     public static void main(String[] args) {
         // output
@@ -50,6 +51,6 @@ public class Lecture_2_Variables_Input_Output {
         String last = sc.next();
         //nextFolat()
         //nextInt()
-        System.out.println(name+" "+last);
+        System.out.println(name + " " + last);
     }
 }

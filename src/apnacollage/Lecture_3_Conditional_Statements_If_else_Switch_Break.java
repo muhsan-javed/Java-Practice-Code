@@ -33,7 +33,7 @@ public class Lecture_3_Conditional_Statements_If_else_Switch_Break {
 //                System.out.println("a is lesser");
 //        }
 
-        int Button  = scanner.nextInt();
+        int Button = scanner.nextInt();
         switch (Button) {
             case 1 -> System.out.println("Hello");
             case 2 -> System.out.println("Muhsan");
@@ -41,8 +41,6 @@ public class Lecture_3_Conditional_Statements_If_else_Switch_Break {
             case 4 -> System.out.println("Sahid");
             default -> System.out.println("Invalid Button");
         }
-
-
 
 
     }
