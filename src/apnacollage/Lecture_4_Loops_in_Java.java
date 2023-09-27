@@ -49,8 +49,8 @@ public class Lecture_4_Loops_in_Java {
 //        }
 
 
-        int a = 4;
-        int b = 2;
+        //int a = 4;
+        //int b = 2;
 
 
     }
