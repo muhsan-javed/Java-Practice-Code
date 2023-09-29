@@ -2,7 +2,7 @@ package JavaTutorialLearnJavain2HoursForBeginners_appa_collage;
 
 public class Main<vo> {
     public static void main(String[] args) {
-    // our first program
+        // our first program
 //        System.out.println("Hello world");
 //        System.out.println("Hello Java \n");
 
@@ -28,7 +28,7 @@ public class Main<vo> {
 
         //
 
-        byte age1  = 30;
+        byte age1 = 30;
         int phone1 = 1234567890;
         long phone2 = 315485424564L;
         float pi = 3.41f;
@@ -56,7 +56,7 @@ public class Main<vo> {
         int chem = 93;
         int eng = 88;
 
-        int[] marks = new int [4];
+        int[] marks = new int[4];
         marks[0] = 93;
         marks[1] = 91;
         marks[2] = 88;
@@ -70,15 +70,15 @@ public class Main<vo> {
 //        Arrays.sort(marks);
 //        System.out.println(marks[0]);
 
-        int [] paperMarks = {45,98,74};
+        int[] paperMarks = {45, 98, 74};
 
-        int [][] finalMarks = {{92,63,78},{56,89,78},
-                                {65,99,77},{44,88,22}};
+        int[][] finalMarks = {{92, 63, 78}, {56, 89, 78},
+                {65, 99, 77}, {44, 88, 22}};
 
 //        System.out.println(finalMarks[1][2]);
 
         // Casting
-        double Price  = 100.00;
+        double Price = 100.00;
         double finalP = Price + 15;
 
 //        System.out.println(finalP);
@@ -190,7 +190,7 @@ public class Main<vo> {
         // Conditional statements SWITCH
         int day = 2; // 1 - monday; 2 tuesday
 
-        switch (day){
+        switch (day) {
             case 1:
 //                System.out.println("Sunday");
                 break;
@@ -279,17 +279,20 @@ public class Main<vo> {
 //        System.out.println("Hello Programmer");
         printJava(); // Calling
         printName("Muhsan");
-        printSum(88,12);
+        printSum(88, 12);
 
 
     }
-    public static void printJava(){
+
+    public static void printJava() {
         System.out.println("Hello Programmer");
     }
-    public static void printName(String name){
+
+    public static void printName(String name) {
         System.out.println(name);
     }
-    public static void printSum(int a, int b){
+
+    public static void printSum(int a, int b) {
         int sum = a + b;
         System.out.println(sum);
     }

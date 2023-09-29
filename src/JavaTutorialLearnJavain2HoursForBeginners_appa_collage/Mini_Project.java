@@ -7,23 +7,21 @@ public class Mini_Project {
         // MINI PROJECT
 
         Scanner scanner = new Scanner(System.in);
-        int myNumber = (int)(Math.random()*100);
+        int myNumber = (int) (Math.random() * 100);
         int userNumber;
 
         do {
             System.out.println("Guess my number : ");
             userNumber = scanner.nextInt();
 
-            if (userNumber == myNumber){
+            if (userNumber == myNumber) {
                 System.out.println("!!!!!   WOOHOO ... CORRECT NUMBER  !!!!!!");
-            }
-            else if (userNumber > myNumber){
+            } else if (userNumber > myNumber) {
                 System.out.println("Your number is to large ");
-            }
-            else {
+            } else {
                 System.out.println("Your number is too small");
             }
-        }while (userNumber >= 0);
+        } while (userNumber >= 0);
 
         System.out.println("My Number was : ");
         System.out.print(myNumber);
