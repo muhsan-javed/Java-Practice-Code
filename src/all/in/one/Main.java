@@ -247,7 +247,7 @@ public class Main {
 //        System.out.println("\n\n\n\n\n\n");
 
         //  Java Arrays
-        int [] marks = {12,31,465,34,13};
+        int[] marks = {12, 31, 465, 34, 13};
         marks[0] = 65; // this will update marks[0]
         System.out.println(marks[0]);
 
@@ -276,13 +276,13 @@ public class Main {
 //            System.out.println(value);
 //        }
 
-        String [] names = {"Muhsan","Ali","Hyder","Uzair","Shaib","Majid","Asad"};
+        String[] names = {"Muhsan", "Ali", "Hyder", "Uzair", "Shaib", "Majid", "Asad"};
 
         // Try - Catch
 
         try {
             System.out.println(names[9]);
-        }catch (Exception e){
+        } catch (Exception e) {
             System.out.println(e);
         }
 
@@ -337,7 +337,6 @@ public class Main {
                 System.out.println("Invalid input");
 
         }
-
 
 
     }

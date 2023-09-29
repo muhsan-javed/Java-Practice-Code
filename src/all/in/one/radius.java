@@ -7,10 +7,10 @@ public class radius {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the value of radius ");
         int radius = scanner.nextInt();
-        double area=3.14*radius*radius;
-        System.out.println("Area is "+ area);
+        double area = 3.14 * radius * radius;
+        System.out.println("Area is " + area);
 
-        StringBuffer sb=new StringBuffer("Hello ");
+        StringBuffer sb = new StringBuffer("Hello ");
 //        sb.append("Java");    //now original string is changed
 //        sb.insert(1,"Java");  //now original string is changed
 //        sb.replace(1,3,"Java");

@@ -1,7 +1,6 @@
 package all.in.one;
 
 
-
 import java.util.Calendar;
 import java.util.GregorianCalendar;
 import java.util.Random;
@@ -135,7 +134,7 @@ public class FirstClass {
 //            System.out.println(" ");
 //        }
 
-        Student student = new Student("Muhsan","javed");
+        Student student = new Student("Muhsan", "javed");
 
 //        student.fname = "Muhsan";
 //        student.lname = "Javed";
@@ -150,46 +149,46 @@ public class FirstClass {
 //        student2.Print();
         messsage();
 
-        int [] myarray = {21,15,67,27,37,92,82,24,76,42,2,84,15,89,547,35,67,23,12,98};
+        int[] myarray = {21, 15, 67, 27, 37, 92, 82, 24, 76, 42, 2, 84, 15, 89, 547, 35, 67, 23, 12, 98};
         // PrintArray(myarray);
 
         Random randomNumber = new Random();
-        for (int i=0;i<10;i++) {
-            int RNumber = randomNumber.nextInt(40-10+1)+10;
+        for (int i = 0; i < 10; i++) {
+            int RNumber = randomNumber.nextInt(40 - 10 + 1) + 10;
             //System.out.println(RNumber);
         }
 
 
-        System.out.println(Math.max(23,21));
+        System.out.println(Math.max(23, 21));
 
 
         // Date and Time print
-        int day,month,year;
+        int day, month, year;
         int second, minute, hour;
 
         GregorianCalendar date = new GregorianCalendar();
 
-        day= date.get(Calendar.DAY_OF_MONTH);
-        month= date.get(Calendar.MONTH);
-        year= date.get(Calendar.YEAR);
+        day = date.get(Calendar.DAY_OF_MONTH);
+        month = date.get(Calendar.MONTH);
+        year = date.get(Calendar.YEAR);
 
-        second= date.get(Calendar.SECOND);
-        minute= date.get(Calendar.MINUTE);
-        hour= date.get(Calendar.HOUR_OF_DAY);
+        second = date.get(Calendar.SECOND);
+        minute = date.get(Calendar.MINUTE);
+        hour = date.get(Calendar.HOUR_OF_DAY);
 
-        System.out.println(day+" / "+month+" / "+year);
-        System.out.println(second+" / "+minute+" / "+hour);
+        System.out.println(day + " / " + month + " / " + year);
+        System.out.println(second + " / " + minute + " / " + hour);
         // End Date and Time
 
 
-
-
     }
-    static void messsage(){
+
+    static void messsage() {
         System.out.println("I ma a message");
     }
-    static void PrintArray(int array[]){
-        for (int i=0;i<array.length;i++){
+
+    static void PrintArray(int array[]) {
+        for (int i = 0; i < array.length; i++) {
             System.out.println(array[i]);
         }
     }

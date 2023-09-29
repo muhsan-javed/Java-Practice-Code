@@ -1,7 +1,6 @@
 package all.in.one;
 
-class MethodDemo
-{
+class MethodDemo {
 	/*static void sum(){  // non-parameterized without return
 		int x =10;
 		int y = 20;
@@ -79,33 +78,33 @@ class MethodDemo
 	static double addition(double d, double d1){
 			return(d+d1);
 		}*/
-		
-	static void show(byte b) {
-		System.out.println("byte = "+ b);
-	}
-	
-	static void show(short b) {
-		System.out.println("short = "+ b);
-	}
-	
-	static void show(int b) {
-		System.out.println("int = " + b);
-	}
-	
-	static void show(long b) {
-		System.out.println("long = "+ b);
-	}
-	
-	static int add(byte x, byte y  ) {
-		byte z= (byte) ((int)x+y);
-		return z;
-	}
-	
-	public static void main(String[] args) {
-		show(23);
 
-	}
-	
+    static void show(byte b) {
+        System.out.println("byte = " + b);
+    }
+
+    static void show(short b) {
+        System.out.println("short = " + b);
+    }
+
+    static void show(int b) {
+        System.out.println("int = " + b);
+    }
+
+    static void show(long b) {
+        System.out.println("long = " + b);
+    }
+
+    static int add(byte x, byte y) {
+        byte z = (byte) ((int) x + y);
+        return z;
+    }
+
+    public static void main(String[] args) {
+        show(23);
+
+    }
+
 }
 
 
