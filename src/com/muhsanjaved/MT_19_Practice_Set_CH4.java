@@ -1,8 +1,10 @@
 package com.muhsanjaved;
+
 import java.util.Scanner;
+
 public class MT_19_Practice_Set_CH4 {
     public static void main(String[] args) {
-       //Question 1
+        //Question 1
 //        int a = 10;
 //        if (a == 11){
 //            System.out.println("I am 11");
@@ -55,7 +57,7 @@ public class MT_19_Practice_Set_CH4 {
 //
 //        System.out.println("The total tax paid by the employee is: "+ tax);
 //
-            // Question 4
+        // Question 4
 //        Scanner sc = new Scanner(System.in);
 //        int day = sc.nextInt();
 //        switch (day){
@@ -74,16 +76,13 @@ public class MT_19_Practice_Set_CH4 {
         // Question 6
         Scanner sc = new Scanner(System.in);
         String website = sc.next();
-        if (website.endsWith(".org")){
+        if (website.endsWith(".org")) {
             System.out.println("This is an organizational website");
-        }
-        else if (website.endsWith(".com")){
+        } else if (website.endsWith(".com")) {
             System.out.println("This is an Commercial website");
-        }
-        else if (website.endsWith(".pk")){
+        } else if (website.endsWith(".pk")) {
             System.out.println("This is an Pakistan website");
         }
-
 
 
     }

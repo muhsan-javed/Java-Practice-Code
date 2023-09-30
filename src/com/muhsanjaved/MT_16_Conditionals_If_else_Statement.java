@@ -12,7 +12,7 @@ public class MT_16_Conditionals_If_else_Statement {
      */
 
         int a = 18;
-        if (a>=18)
+        if (a >= 18)
             System.out.println("Yes Boy you can drive! ");
         else
             System.out.println("No boy you cannot drive yet!");
