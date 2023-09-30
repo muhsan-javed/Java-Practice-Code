@@ -1,33 +1,43 @@
 package com.muhsanjaved;
 
 
-interface Bicycle{
+interface Bicycle {
     int a = 45;
+
     void applyBrake(int decrement);
+
     void speedUp(int increment);
 }
-interface HornBicycle{
+
+interface HornBicycle {
     void blowHornk3g();
+
     void blowHornmhn();
 }
-class AvonCycle implements Bicycle, HornBicycle{
-    void blowHorn(){
+
+class AvonCycle implements Bicycle, HornBicycle {
+    void blowHorn() {
         System.out.println("Pee Pee Poo Poo");
     }
-    public void applyBrake(int decrement){
+
+    public void applyBrake(int decrement) {
         System.out.println("Applying brake ");
     }
-    public  void speedUp(int increment){
+
+    public void speedUp(int increment) {
         System.out.println("Applying SpeedUp");
     }
-    public void blowHornk3g(){
+
+    public void blowHornk3g() {
         System.out.println("Kabhi khushi kabhi gum pee pee pee pee");
     }
-    public void blowHornmhn(){
+
+    public void blowHornmhn() {
         System.out.println("Main hoon naa po po po po po ");
     }
 
 }
+
 public class MT_55_Abstract_Classes_Vs_Interfaces {
     public static void main(String[] args) {
 
