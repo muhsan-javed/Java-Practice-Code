@@ -1,17 +1,19 @@
 package com.muhsanjaved;
 
-class MyThr1 extends Thread{
-    public MyThr1(String name){
+class MyThr1 extends Thread {
+    public MyThr1(String name) {
         super(name);
     }
-    public void run(){
+
+    public void run() {
         int i = 40;
-        while (true){
+        while (true) {
             System.out.println("Thank you " + this.getName());
         }
     }
 
 }
+
 public class MT_74_Java_Thread_Priorities {
     public static void main(String[] args) {
 

@@ -1,10 +1,11 @@
 package com.muhsanjaved;
 
-class MyThr extends Thread{
-    public MyThr(String name){
+class MyThr extends Thread {
+    public MyThr(String name) {
         super(name);
     }
-    public void run(){
+
+    public void run() {
         int i = 34;
         System.out.println("Thank you");
 //        while (true){
@@ -12,6 +13,7 @@ class MyThr extends Thread{
 //        }
     }
 }
+
 public class MT_73_ConstructorsThreadclassJava {
     public static void main(String[] args) {
 
@@ -19,10 +21,10 @@ public class MT_73_ConstructorsThreadclassJava {
         MyThr t1 = new MyThr("Ali hyder");
         t.start();
         t1.start();
-        System.out.println("The id of the tread t is  "+ t.getId());
-        System.out.println("The name of the tread t is  "+ t.getName());
+        System.out.println("The id of the tread t is  " + t.getId());
+        System.out.println("The name of the tread t is  " + t.getName());
 
-        System.out.println("The id of the tread t is  "+ t1.getId());
-        System.out.println("The name of the tread t is  "+ t1.getName());
+        System.out.println("The id of the tread t is  " + t1.getId());
+        System.out.println("The name of the tread t is  " + t1.getName());
     }
 }

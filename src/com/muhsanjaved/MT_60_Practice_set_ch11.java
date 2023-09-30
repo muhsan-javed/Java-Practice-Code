@@ -1,34 +1,43 @@
 package com.muhsanjaved;
 
-abstract class Pen{
+abstract class Pen {
     abstract void write();
+
     abstract void refill();
 }
-class FountainPen extends Pen{
-    void write(){
+
+class FountainPen extends Pen {
+    void write() {
         System.out.println("Write");
     }
-    void refill(){
+
+    void refill() {
         System.out.println("Refill");
     }
-    void ChangeNib(){
+
+    void ChangeNib() {
         System.out.println("Changing the nib");
     }
 }
-class Monkey{
-    void jump(){
+
+class Monkey {
+    void jump() {
         System.out.println("Jumping...");
     }
-    void bite(){
+
+    void bite() {
         System.out.println("Biting...");
     }
 }
-interface BasicAnimal{
+
+interface BasicAnimal {
     void eat();
+
     void sleep();
 }
-class Human extends Monkey implements BasicAnimal{
-    void speak(){
+
+class Human extends Monkey implements BasicAnimal {
+    void speak() {
         System.out.println("Hello sir!");
     }
 
@@ -42,16 +51,17 @@ class Human extends Monkey implements BasicAnimal{
         System.out.println("sleeping ");
     }
 }
+
 public class MT_60_Practice_set_ch11 {
     public static void main(String[] args) {
         //Problem 1 _ 2
-    FountainPen pen = new FountainPen();
-    pen.ChangeNib();
-    pen.write();
+        FountainPen pen = new FountainPen();
+        pen.ChangeNib();
+        pen.write();
 
         // Problem 3
-    Human muhsan = new Human();
-    muhsan.sleep();
+        Human muhsan = new Human();
+        muhsan.sleep();
 
         // Problem 3
         Monkey m1 = new Human();

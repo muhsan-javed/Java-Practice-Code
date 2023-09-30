@@ -1,31 +1,31 @@
 package com.muhsanjaved;
 
 class Practice13 extends Thread {
-    public void run(){
-        while (true){
+    public void run() {
+        while (true) {
             try {
                 Thread.sleep(200);
-            }
-            catch (Exception e){
+            } catch (Exception e) {
                 System.out.println(e);
             }
             System.out.println("Good Morning");
         }
     }
 }
+
 class Practice13b extends Thread {
-    public void run(){
-        while (true){
+    public void run() {
+        while (true) {
             try {
                 Thread.sleep(200);
-            }
-            catch (Exception e){
+            } catch (Exception e) {
                 System.out.println(e);
             }
             System.out.println("Welcome");
         }
     }
 }
+
 public class MT_76_Practice_Questions_on_Thread {
     public static void main(String[] args) {
         Practice13 p1 = new Practice13();
