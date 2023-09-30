@@ -1,6 +1,6 @@
 package com.muhsanjaved;
 
-class Base{
+class Base {
     int x;
 
     public int getX() {
@@ -13,12 +13,12 @@ class Base{
         this.x = x;
     }
 
-    public void printMe(){
+    public void printMe() {
         System.out.println("I am a Constructor");
     }
 }
 
-class Derives extends Base{
+class Derives extends Base {
     int Y;
 
     public int getY() {
@@ -29,13 +29,14 @@ class Derives extends Base{
         Y = y;
     }
 }
+
 public class MT_45_Inheritance_In_Java {
     public static void main(String[] args) {
-    // Creating an Object of base class
+        // Creating an Object of base class
         Base b = new Base();
         b.setX(4);
         System.out.println(b.getX());
-    // Creating an object of derived class
+        // Creating an object of derived class
         Derives d = new Derives();
         d.setX(45);
         System.out.println(d.getX());

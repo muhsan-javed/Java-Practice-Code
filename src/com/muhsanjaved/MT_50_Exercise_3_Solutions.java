@@ -1,8 +1,9 @@
 package com.muhsanjaved;
+
 import java.util.Random;
 import java.util.Scanner;
 
-class Game{
+class Game {
     public int number;
     public int inputnumber;
     public int noOfGuesses = 0;
@@ -15,33 +16,33 @@ class Game{
         this.noOfGuesses = noOfGuesses;
     }
 
-    Game(){
+    Game() {
         Random rand = new Random();
         this.number = rand.nextInt(200);
     }
-    void takeUserInput(){
+
+    void takeUserInput() {
         System.out.println("Guess the Number");
         Scanner sc = new Scanner(System.in);
         inputnumber = sc.nextInt();
     }
-    boolean isCorrectNumber(){
+
+    boolean isCorrectNumber() {
         noOfGuesses++;
-        if (inputnumber == number){
-            System.out.format("Yes you guessed it right, it was %d\n You guessed it in %d attempts ", number , noOfGuesses);
+        if (inputnumber == number) {
+            System.out.format("Yes you guessed it right, it was %d\n You guessed it in %d attempts ", number, noOfGuesses);
             return true;
-        }
-        else if (inputnumber<number){
+        } else if (inputnumber < number) {
             System.out.println("Too low....");
-        }
-        else if (inputnumber>number){
+        } else if (inputnumber > number) {
             System.out.println("Too high....");
         }
         return false;
     }
 }
+
 public class MT_50_Exercise_3_Solutions {
     public static void main(String[] args) {
-
 
             /*
         Create a class Game, which allows a user to play "Guess the Number"

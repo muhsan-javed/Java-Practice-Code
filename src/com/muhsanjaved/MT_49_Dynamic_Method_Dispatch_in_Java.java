@@ -1,21 +1,24 @@
 package com.muhsanjaved;
 
 class Phone {
-    public void showTime(){
+    public void showTime() {
         System.out.println("Time is 8 am");
     }
-    public void on(){
+
+    public void on() {
         System.out.println("Turning on Phone..... ");
     }
 //    public void music(){ 
 //        System.out.println("Playing music....");
 //    }
 }
-class SmartPhone extends Phone{
-    public void music(){
+
+class SmartPhone extends Phone {
+    public void music() {
         System.out.println("Playing music....");
     }
-    public void on(){
+
+    public void on() {
         System.out.println("Turning on SmartPhone..... ");
     }
 
