@@ -8,21 +8,19 @@ public class LearnSet {
 
         Set<Student> studentSet = new HashSet<>();
 
-        studentSet.add(new Student("Muhsan",2));
-        studentSet.add(new Student("Ali",8));
-        studentSet.add(new Student("Javed",1));
-        studentSet.add(new Student("Junaid",8));
+        studentSet.add(new Student("Muhsan", 2));
+        studentSet.add(new Student("Ali", 8));
+        studentSet.add(new Student("Javed", 1));
+        studentSet.add(new Student("Junaid", 8));
 
-        studentSet.add(new Student("Hyder",8));
+        studentSet.add(new Student("Hyder", 8));
 
-        Student s1 = new Student("Uzair",2);
-        Student s2 = new Student("Sahid",2);
+        Student s1 = new Student("Uzair", 2);
+        Student s2 = new Student("Sahid", 2);
 
         System.out.println(s1.equals(s2));
 
-
         System.out.println(studentSet);
-
 
         //Set<Integer> set = new HashSet<>();
 //        Set<Integer> set = new LinkedHashSet<>();

@@ -9,11 +9,11 @@ public class LearnMap {
 //        Map<String, Integer> numbers = new HashMap<>();
         Map<String, Integer> numbers = new TreeMap<>();
 
-        numbers.put("One",1);
-        numbers.put("Two",2);
-        numbers.put("Three",3);
-        numbers.put("Four",4);
-        numbers.put("Five",5);
+        numbers.put("One", 1);
+        numbers.put("Two", 2);
+        numbers.put("Three", 3);
+        numbers.put("Four", 4);
+        numbers.put("Five", 5);
 
 //        if (!numbers.containsKey("Two")){
 //            numbers.put("Two",23);

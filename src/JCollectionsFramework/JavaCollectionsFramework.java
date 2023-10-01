@@ -17,8 +17,5 @@ public class JavaCollectionsFramework {
 ////        size = n
 ////                n +n/2 +1
 //        studentsName.add("Muhsan");
-
-
-
     }
 }

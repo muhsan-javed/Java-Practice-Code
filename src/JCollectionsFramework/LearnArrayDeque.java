@@ -21,16 +21,14 @@ public class LearnArrayDeque {
 
         System.out.println("\n");
         System.out.println(ad.poll());
-        System.out.println("Poll() "+ad);
+        System.out.println("Poll() " + ad);
 
         System.out.println("\n");
         System.out.println(ad.pollFirst());
-        System.out.println("PollFirst() "+ad);
+        System.out.println("PollFirst() " + ad);
 
         System.out.println("\n");
         System.out.println(ad.pollLast());
-        System.out.println("PollLast() "+ad);
-
-
+        System.out.println("PollLast() " + ad);
     }
 }
