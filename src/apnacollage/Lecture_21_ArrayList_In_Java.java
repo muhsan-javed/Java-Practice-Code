@@ -21,11 +21,11 @@ public class Lecture_21_ArrayList_In_Java {
         System.out.println(emlement);
 
         // add element in between
-        list.add(1,2);
+        list.add(1, 2);
         System.out.println(list);
 
         //set elemrnt
-        list.set(0,5);
+        list.set(0, 5);
         System.out.println(list);
 
         //delete element

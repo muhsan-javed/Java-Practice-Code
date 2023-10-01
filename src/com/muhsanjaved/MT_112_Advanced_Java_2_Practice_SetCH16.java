@@ -3,14 +3,14 @@ package com.muhsanjaved;
 import java.io.FileWriter;
 import java.io.IOException;
 
-class MyDeprecated{
+class MyDeprecated {
     @Deprecated
-    void meth1(){
+    void meth1() {
         System.out.println("I am method 1");
     }
 }
 
-interface MyInt{
+interface MyInt {
     void display();
 }
 
@@ -24,7 +24,7 @@ public class MT_112_Advanced_Java_2_Practice_SetCH16 {
         int i = 19;
         String table = "";
         for (int j = 0; j < 10; j++) {
-            table += i + "X"+(j+1) + "=" + i*(j+1);
+            table += i + "X" + (j + 1) + "=" + i * (j + 1);
             table += "\n";
         }
         try {

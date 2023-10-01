@@ -1,4 +1,5 @@
 package apnacollage;
+
 // Class 01
 public class Lecture_17_Recursion_in_One_Shot_Theory_Question_Practice_Level_1 {
 
@@ -12,7 +13,7 @@ public class Lecture_17_Recursion_in_One_Shot_Theory_Question_Practice_Level_1 {
         printNumber(n-1);
     }*/
 
- // Q2
+    // Q2
  /*public static void printNumber(int n){
      if ( n == 6 ){
          return;
@@ -68,26 +69,25 @@ public class Lecture_17_Recursion_in_One_Shot_Theory_Question_Practice_Level_1 {
     }*/
 
     // Q 7 --> Print x^n (stack height = logn) ?
-    public static int calcPower(int x, int n){
-        if  (n == 0){// base case 1
+    public static int calcPower(int x, int n) {
+        if (n == 0) {// base case 1
             return 1;
         }
-        if (x == 0){ // base case 2
+        if (x == 0) { // base case 2
             return 0;
         }
         // if n is even
-        if (n % 2 == 0){
-            return calcPower(x, n/2) * calcPower(x, n/2);
-        }
-        else {
-            return calcPower(x, n/2) * calcPower(x, n/2) * x;
+        if (n % 2 == 0) {
+            return calcPower(x, n / 2) * calcPower(x, n / 2);
+        } else {
+            return calcPower(x, n / 2) * calcPower(x, n / 2) * x;
         }
     }
 
     public static void main(String[] args) {
 
         // Q 7 --> Print x^n (stack height = logn) AND
-        int x = 2, n =5;
+        int x = 2, n = 5;
         int ans = calcPower(x, n);
         System.out.println(ans);
 

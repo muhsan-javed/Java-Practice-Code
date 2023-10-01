@@ -1,24 +1,26 @@
 package apnacollage.banking;
 
 
-class Account{
+class Account {
     public String name;
     public String last;
     public byte age;
     protected String email;
     private String password;
+
     // getters & Setters
-    public String getPassword(){
+    public String getPassword() {
         // setPassword(Randompass);
         return this.password;
     }
 
-    public void setPassword(String pass){
+    public void setPassword(String pass) {
         this.password = pass;
     }
 
 
 }
+
 public class Bank {
     public static void main(String[] args) {
         Account account = new Account();
@@ -30,5 +32,5 @@ public class Bank {
         System.out.println(account.getPassword());
 
     }
-    
+
 }

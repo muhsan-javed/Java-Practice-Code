@@ -11,7 +11,7 @@ public class MT_99_Gregorian_Calendar_class {
         System.out.println(c.get(Calendar.DATE));
         System.out.println(c.get(Calendar.SECOND));
         System.out.println(c.get(Calendar.HOUR));
-        System.out.println(c.get(Calendar.HOUR_OF_DAY)+":"+c.get(Calendar.MINUTE));
+        System.out.println(c.get(Calendar.HOUR_OF_DAY) + ":" + c.get(Calendar.MINUTE));
 
         GregorianCalendar cal = new GregorianCalendar();
         System.out.println(cal.isLeapYear(2020));

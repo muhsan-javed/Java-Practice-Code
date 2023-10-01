@@ -36,18 +36,18 @@ public class Lecture_15_Bit_Manipulation_Java {
         // with NOT
         System.out.println("Enter Number");
         Scanner scanner = new Scanner(System.in);
-        int operation =scanner.nextInt();
+        int operation = scanner.nextInt();
         // oper = 1 : Set oper =0 : Claer
         int n = 5; // 0101
         int pos = 1;
         //int operation = 1; // update bit to 1 else update bit to 0
 
-        int bitMask = 1<<pos;
-        if (operation == 1){
+        int bitMask = 1 << pos;
+        if (operation == 1) {
             //set
             int newNumber = bitMask | n;
             System.out.println(newNumber);
-        }else {
+        } else {
             // Clear
             int newBitMAsk = ~(bitMask);
             int newNumber = newBitMAsk & n;

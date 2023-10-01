@@ -4,7 +4,7 @@ import java.util.HashSet;
 
 public class MT_95_HashSet_in_Java {
     public static void main(String[] args) {
-        HashSet<Integer> myHashSet = new HashSet<>(6,0.5f);
+        HashSet<Integer> myHashSet = new HashSet<>(6, 0.5f);
         myHashSet.add(6);
         myHashSet.add(8);
         myHashSet.add(3);

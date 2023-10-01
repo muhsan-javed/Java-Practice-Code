@@ -1,9 +1,9 @@
 package com.muhsanjaved;
 
 @FunctionalInterface
-interface DemoAno{
+interface DemoAno {
     void meth1(int a);
- //   void meth2();
+    //   void meth2();
 }
 
 //class MuhsanFunc implements DemoAno{
@@ -26,7 +26,7 @@ interface DemoAno{
 //        System.out.println("i am meth2");
 //    }
 //}
-public class  MT_109_Java_Anonymous_Classes_Lambda_Expressions {
+public class MT_109_Java_Anonymous_Classes_Lambda_Expressions {
     public static void main(String[] args) {
 
 //        DemoAno obj = new AnonyDemo();
@@ -50,11 +50,10 @@ public class  MT_109_Java_Anonymous_Classes_Lambda_Expressions {
 //        DemoAno obj = new MuhsanFunc();
 //        obj.meth1();
 
-        DemoAno obj = (a)->{
-            System.out.println("DemoAno obj = ()- >{};  This method 1 form this lambda" +a);
+        DemoAno obj = (a) -> {
+            System.out.println("DemoAno obj = ()- >{};  This method 1 form this lambda" + a);
         };
         obj.meth1(6);
-
 
 
     }

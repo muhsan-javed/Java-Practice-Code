@@ -4,22 +4,24 @@ public class Lecture_24_Reverse_Linked_List_Iterative_Recursive {
 
     Node head;
 
-    class Node{
+    class Node {
         int data;
         Node next;
-        Node(int data){
+
+        Node(int data) {
             this.data = data;
             this.next = null;
         }
     }
+
     public void reverseList() {
-        if(head == null || head.next == null) {
+        if (head == null || head.next == null) {
             return;
         }
 
         Node prevNode = head;
         Node currNode = head.next;
-        while(currNode != null) {
+        while (currNode != null) {
             Node nextNode = currNode.next;
             currNode.next = prevNode;
             //update
@@ -31,50 +33,52 @@ public class Lecture_24_Reverse_Linked_List_Iterative_Recursive {
     }
 
     //add - first , last
-    public void addFirst(int data){
-       Node newNode = new Node(data);
-        if (head == null){
+    public void addFirst(int data) {
+        Node newNode = new Node(data);
+        if (head == null) {
             head = newNode;
             return;
         }
-        newNode.next =head;
+        newNode.next = head;
         head = newNode;
     }
+
     // ad last
-    public void addlast(int data){
+    public void addlast(int data) {
         Node newNode = new Node(data);
-        if (head == null){
+        if (head == null) {
             head = newNode;
             return;
         }
 
-        Node currNode =head;
-        while (currNode.next != null){
+        Node currNode = head;
+        while (currNode.next != null) {
             currNode = currNode.next;
         }
         currNode.next = newNode;
     }
 
     //Print
-    public void printList(){
-        if (head == null){
+    public void printList() {
+        if (head == null) {
             System.out.println("list is empty");
             return;
         }
 
-        Node currNode =head;
-        while (currNode != null){
+        Node currNode = head;
+        while (currNode != null) {
             System.out.print(currNode.data + " -> ");
             currNode = currNode.next;
         }
         System.out.println("NULL");
     }
+
     // Reverse Recursive
-    public Node reverseRecursive(Node head){
-        if (head == null || head.next == null){
+    public Node reverseRecursive(Node head) {
+        if (head == null || head.next == null) {
             return head;
         }
-        Node newHead =reverseRecursive(head.next);
+        Node newHead = reverseRecursive(head.next);
         head.next.next = head;
         head.next = null;
 

@@ -5,7 +5,7 @@ package apnacollage;
 //    String color;
 //    String type;// ballpoint; gel
 //    public void write(){
-//        System.out.println("Writing someting");
+//        System.out.println("Writing something");
 //    }
 //    public void printColor(){
 //        System.out.println(this.color);
@@ -49,7 +49,7 @@ package apnacollage;
 //    }
 //}
 
-/*bstract class Animal{
+/* abstract class Animal{
     abstract void walk();
     Animal(){
         System.out.println("you are creating a new Animal");
@@ -87,10 +87,11 @@ class Horse implements Animal, Herbivore{
     }
 }*/
 
-class Student{
+class Student {
     String name;
     static String school;
-    public static void changeSchool(){
+
+    public static void changeSchool() {
         school = "NewSchool";
     }
 }

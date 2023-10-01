@@ -3,56 +3,58 @@ package apnacollage;
 import java.util.LinkedList;
 
 public class Lecture_23_Introduction_to_Linked_List_Data_Structures_Algorithms_Java {
-
     Node head;
     private int size;
 
-    Lecture_23_Introduction_to_Linked_List_Data_Structures_Algorithms_Java(){
+    Lecture_23_Introduction_to_Linked_List_Data_Structures_Algorithms_Java() {
         this.size = 0;
     }
-    class Node{
+
+    class Node {
         String data;
         Node next;
 
-        Node(String data){
+        Node(String data) {
             this.data = data;
             this.next = null;
             size++;
         }
     }
+
     //add - first , last
-    public void addFirst(String data){
+    public void addFirst(String data) {
         Node newNode = new Node(data);
-        if (head == null){
+        if (head == null) {
             head = newNode;
             return;
         }
-        newNode.next =head;
+        newNode.next = head;
         head = newNode;
     }
 
-    public void addlast(String data){
+    public void addlast(String data) {
         Node newNode = new Node(data);
-        if (head == null){
+        if (head == null) {
             head = newNode;
             return;
         }
 
-        Node currNode =head;
-        while (currNode.next != null){
+        Node currNode = head;
+        while (currNode.next != null) {
             currNode = currNode.next;
         }
         currNode.next = newNode;
     }
+
     //Print
-    public void printList(){
-        if (head == null){
+    public void printList() {
+        if (head == null) {
             System.out.println("list is empty");
             return;
         }
 
-        Node currNode =head;
-        while (currNode != null){
+        Node currNode = head;
+        while (currNode != null) {
             System.out.print(currNode.data + " -> ");
             currNode = currNode.next;
         }
@@ -60,8 +62,8 @@ public class Lecture_23_Introduction_to_Linked_List_Data_Structures_Algorithms_J
     }
 
     //delete first
-    public void deleteFirst(){
-        if (head == null){
+    public void deleteFirst() {
+        if (head == null) {
             System.out.println("The list is empty");
             return;
         }
@@ -70,20 +72,20 @@ public class Lecture_23_Introduction_to_Linked_List_Data_Structures_Algorithms_J
     }
 
     // delete last
-    public void deleteLast(){
-        if (head == null){
+    public void deleteLast() {
+        if (head == null) {
             System.out.println("The list emptyy");
             return;
         }
         size--;
 
-        if (head.next == null){
+        if (head.next == null) {
             head = null;
             return;
         }
         Node secondLast = head;
         Node lastNode = head.next; // head.next  = null -> lastNode = null
-        while (lastNode.next != null){ // null.next == ERROR
+        while (lastNode.next != null) { // null.next == ERROR
             lastNode = lastNode.next;
             secondLast = secondLast.next;
         }
@@ -91,9 +93,10 @@ public class Lecture_23_Introduction_to_Linked_List_Data_Structures_Algorithms_J
     }
 
     //Size
-    public int getSize(){
+    public int getSize() {
         return size;
     }
+
     public static void main(String[] args) {
         Lecture_23_Introduction_to_Linked_List_Data_Structures_Algorithms_Java list = new Lecture_23_Introduction_to_Linked_List_Data_Structures_Algorithms_Java();
         list.addFirst("a");
@@ -121,8 +124,8 @@ public class Lecture_23_Introduction_to_Linked_List_Data_Structures_Algorithms_J
 
         // Collection Framwork
         LinkedList<String> linkedList = new LinkedList<>();
-         linkedList.addFirst("a");
-         linkedList.addLast("is");
+        linkedList.addFirst("a");
+        linkedList.addLast("is");
         System.out.println(linkedList);
 
         linkedList.addFirst("this");
