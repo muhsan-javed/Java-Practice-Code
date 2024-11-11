@@ -54,7 +54,14 @@ public class HelloWorld {
         * To achieve encapsulation in java
         * Declare the variable of a class as private.
         * Provide public setter and  getter methods to modify and view the variable values.
+        *
+        * // For Example
         * */
+
+        // Keywords AND Identifiers
+
+        // Method Overloading
+        /*If a class has multiple methods having same name but different in  parameters it is known as method Overloading*/
     }
 
     public static int Add(int a, int b){
