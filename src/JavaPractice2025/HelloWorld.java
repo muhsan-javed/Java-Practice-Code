@@ -81,9 +81,18 @@ public class HelloWorld {
         // It is a collection of abstract methods.
         // A Class implements an  interface , thereby inheriting the abstract methods of the interface.
         // Only method signature, nobody
-        // Interfaces specify what a class must do and not how. it is the blueprint of the class.
+        // Interfaces specify what a class must do and not how. It is the blueprint of the class.
 
-        // this        // Static             // Final      KeyWords
+        // KeyWords
+        // this
+        // Static
+        // Final
+
+
+        // Conditional Statements
+        /*
+
+        * */
 
     }
 
