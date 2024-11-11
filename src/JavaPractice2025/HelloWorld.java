@@ -25,6 +25,11 @@ public class HelloWorld {
         // }
 
         // Data Type
-        //
+
+        int a;
+        a = 7;
+        int b = 7;
+        int c = a+b;
+        System.out.println("The Sum is: "+c);
     }
 }
