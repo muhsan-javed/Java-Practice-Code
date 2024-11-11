@@ -62,6 +62,17 @@ public class HelloWorld {
 
         // Method Overloading
         /*If a class has multiple methods having same name but different in  parameters it is known as method Overloading*/
+
+        // Inheritance
+        /* It is the mechanism in java bt which one class is allow to inherit the features (field and methods )_ of another class.
+        One Object acquires all the properties and behaviors of a parent object.
+        It is an important part of OOPs.
+        * */
+
+        // Object And  Calling
+
+
+        // Constructors in Java
     }
 
     public static int Add(int a, int b){
