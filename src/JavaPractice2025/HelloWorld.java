@@ -73,6 +73,18 @@ public class HelloWorld {
 
 
         // Constructors in Java
+
+
+        // Interface in Java
+        // An interface is a reference type in  java
+        // It is similar to class
+        // It is a collection of abstract methods.
+        // A Class implements an  interface , thereby inheriting the abstract methods of the interface.
+        // Only method signature, nobody
+        // Interfaces specify what a class must do and not how. it is the blueprint of the class.
+
+        // this        // Static             // Final      KeyWords
+
     }
 
     public static int Add(int a, int b){
