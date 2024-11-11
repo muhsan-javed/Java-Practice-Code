@@ -42,8 +42,16 @@ public class HelloWorld {
         // }
         // }
         // myMethod(atgs); // Method Calling
-
-
-
+        int Ad = Add();
+        System.out.println("The Sum is: "+ Ad);
     }
+
+    public static int Add(){
+        int a;
+        a = 7;
+        int b = 7;
+        int c = a+b;
+       return c;
+    }
+
 }
