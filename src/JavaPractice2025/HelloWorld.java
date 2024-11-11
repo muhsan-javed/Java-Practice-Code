@@ -31,7 +31,18 @@ public class HelloWorld {
         int c = a+b;
         System.out.println("The Sum is: "+c);
 
-        // Methods
+        // Methods ???
+        // it is a collection  og statements that are grouped to gather to perform an operation.
+        // It tasks some parameters, performs some computations and then optionally returns a value or object.
+        // Syntax:
+        // Used to perform certain actions, and also functions.
+        // public class Main{
+        // Public void myMethod(Params)
+        // // COde to be executed
+        // }
+        // }
+        // myMethod(atgs); // Method Calling
+
 
 
     }
