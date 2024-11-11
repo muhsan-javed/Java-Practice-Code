@@ -42,14 +42,17 @@ public class HelloWorld {
         // }
         // }
         // myMethod(atgs); // Method Calling
-        int Ad = Add();
+//        int Ad = Add();
+        int Ad = Add(7,7);
         System.out.println("The Sum is: "+ Ad);
+
+        // Encapsulation
     }
 
-    public static int Add(){
-        int a;
-        a = 7;
-        int b = 7;
+    public static int Add(int a, int b){
+//        int a;
+//        a = 7;
+//        int b = 7;
         int c = a+b;
        return c;
     }
